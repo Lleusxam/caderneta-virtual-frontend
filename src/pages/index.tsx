@@ -4,10 +4,10 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen bg-[#f7f6fc] text-[#1e1e2f]">
+    <div className="flex min-h-screen bg-[#f7f6fc] text-[#1e1e2f] fixed">
       <Sidebar />
 
-      <main className="flex-1 p-10 space-y-6">
+      <main className="flex-1 p-10 ml-64 space-y-6">
         <Header />
 
         <section className="bg-white rounded-xl shadow-md p-8 border border-[#ede9ff] max-w-4xl mx-auto">

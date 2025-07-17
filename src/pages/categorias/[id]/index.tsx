@@ -32,7 +32,7 @@ export default function ViewCategory() {
     return (
       <div className="flex min-h-screen bg-[#f7f6fc] text-[#1e1e2f]">
         <Sidebar />
-        <main className="flex-1 p-10">
+        <main className="flex-1 p-10 ml-64">
           <Header />
           <p className="text-lg text-[#5e5e7f]">Carregando...</p>
         </main>
@@ -43,7 +43,7 @@ export default function ViewCategory() {
     <div className="flex min-h-screen bg-[#f7f6fc] text-[#1e1e2f]">
       <Sidebar />
 
-      <main className="flex-1 p-10">
+      <main className="flex-1 p-10 ml-64">
         {showConfirm && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-30 backdrop-blur-sm z-50">
             <div className="bg-white p-6 rounded-xl shadow-xl w-full max-w-md text-center border border-[#ede9ff]">

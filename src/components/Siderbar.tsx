@@ -21,7 +21,7 @@ export default function Sidebar() {
   };
 
   return (
-    <aside className="w-64 h-screen bg-[#6a55e0] text-white p-6 flex flex-col justify-between shadow-lg">
+    <aside className="w-64 h-screen fixed bg-[#6a55e0] text-white p-6 flex flex-col justify-between shadow-lg">
       <div>
         <h2 className="text-lg font-bold mb-8 tracking-wide">
           CADERNETA VIRTUAL

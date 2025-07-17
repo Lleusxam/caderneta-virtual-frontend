@@ -51,7 +51,7 @@ export default function EditSale() {
     <div className="flex min-h-screen bg-[#f7f6fc] text-[#1e1e2f]">
       <Sidebar />
 
-      <main className="flex-1 p-10">
+      <main className="flex-1 p-10 ml-64">
         <Header />
         <h1 className="text-2xl font-bold mb-6">Editar Venda</h1>
 

@@ -25,7 +25,7 @@ export default function ListSales() {
         const data = await fetchAPI<Sale[]>({ path: "/sales", method: "GET" });
 
         console.log("Vendas carregadas:", data);
-        
+
         setSales(data);
       } catch (err) {
         console.error("Erro ao buscar vendas:", err);
@@ -41,7 +41,7 @@ export default function ListSales() {
     <div className="flex min-h-screen bg-[#f7f6fc] text-[#1e1e2f]">
       <Sidebar />
 
-      <main className="flex-1 p-10">
+      <main className="flex-1 p-10 ml-64 space-y-6">
         <Header />
         <HeaderSales />
 
